@@ -1,7 +1,3 @@
-* {
-  box-sizing: border-box;
-}
-
 .navbar {
   //   border: 1px solid black;
   display: flex;
@@ -42,6 +38,7 @@
       align-items: center;
       gap: 24px;
       font-weight: 500;
+      font-family: 'Montserrat', sans-serif;
 
       .user {
         display: flex;
@@ -71,6 +68,7 @@
           color: gray;
           width: 200px;
           font-weight: 300;
+          font-family: 'Montserrat', sans-serif;
         }
       }
 
