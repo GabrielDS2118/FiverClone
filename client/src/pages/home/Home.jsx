@@ -8,6 +8,7 @@ import './Home.scss';
 import { cards } from '../../data';
 import CategoryCard from '../../components/categorycard/CategoryCard';
 import FingerTips from '../../components/fingertips/FingerTips';
+import Explore from '../../components/explore/Explore';
 
 const Home = () => {
   return (
@@ -20,6 +21,7 @@ const Home = () => {
         ))}
       </Slide>
       <FingerTips />
+      <Explore />
     </div>
   );
 };
