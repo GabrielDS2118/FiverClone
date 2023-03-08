@@ -9,6 +9,7 @@ import { cards } from '../../data';
 import CategoryCard from '../../components/categorycard/CategoryCard';
 import FingerTips from '../../components/fingertips/FingerTips';
 import Explore from '../../components/explore/Explore';
+import Business from '../../components/business/Business';
 
 const Home = () => {
   return (
@@ -22,6 +23,7 @@ const Home = () => {
       </Slide>
       <FingerTips />
       <Explore />
+      <Business />
     </div>
   );
 };
